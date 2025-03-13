@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Theme</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Remix İcon CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <!-- Navbar-->
+     <nav>
+        <div class="logo">
+            <a href="index.html">Çağrı <span>.in</span></a>
+        </div>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="nav-btns">
+            <a href="/images/logo.webp" download>
+                <button>Download CV</button>
+            </a>
+            <div class="bars">
+                <i class="ri-menu-2-fill"></i>
+            </div>
+
+            <i class="ri-color-filter-line" id="ThemeChanger"></i>
+        </div>
+     </nav>
+
+     <!-- Header -->
+      <header>
+        <div class="hero-content">
+            <span>I'm Çağrı Aydın</span>
+            <h1><span>Web Developer</span></h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipiscing elit, 
+                habitasse ligula mattis class mauris accumsan magna consequat,
+                eget neque habitant dui ultrices himenaeos. 
+            </p>
+            <div class="social-icon">
+                <i class="ri-instagram-fill"></i>
+                <i class="ri-linkedin-fill"></i>
+                <i class="ri-youtube-fill"></i>
+                <i class="ri-twitter-fill"></i>
+                <i class="ri-facebook-fill"></i>
+            </div>
+
+        </div>
+
+        <div class="hero-img">
+            <img src="./images/profile.png" alt="">
+        </div>
+      </header>
+
+      <div id="colorChangerWrapper">
+     
+        <div class="colors-container">
+            <div class="color lightBlue"></div>
+            <div class="color lightGreen"></div>
+            <div class="color lightBrown"></div>
+            <div class="color lightPurple"></div>
+        </div>
+        <button id="btnDark">Dark Theme</button>
+        <i class="ri-close-line"></i>
+      </div>
+
+     <script src="main.js"></script>
+
+</body>
+
+</html>
